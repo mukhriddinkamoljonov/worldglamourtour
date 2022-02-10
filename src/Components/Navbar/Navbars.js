@@ -1,11 +1,15 @@
 import React from 'react';
 import './Navbar.css'
+import  "../icon/photo_2022-02-09_15-30-46.jpg"
 
 
 function Navbars() {
+    const open = () => {
+
+    }
     return (
         <div>
-            <div className="menu-toggle" id="hamburger">
+            <div className="menu-toggle" onClick={open} id="hamburger">
                 <i className="fas fa-bars"></i>
             </div>
             <div className="overlay"></div>
